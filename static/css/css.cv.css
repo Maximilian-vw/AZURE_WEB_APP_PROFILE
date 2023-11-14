@@ -1,0 +1,83 @@
+@media(min-width: 768px){
+  .panah{
+    display:none;
+  }
+  .nama,.kampus{
+    text-align:left !important;
+  }
+  .ornamen{
+    height: 30px;
+    background-color:#20ace6;
+  }
+  .menu{
+    display:none;
+  }
+  .bulkir{
+    position:relative;
+    height: 15px;
+    width: 15px;
+    border-style:solid;
+    border-width:7px;
+    border-radius:180px;
+    border-color:#20ace6;
+    top:9px;
+    left:-2px;
+  }
+  .garis{
+    height:2px;
+    background-color:#20ace6;
+  }
+  .bulkan{
+    position:absolute;
+    height: 15px;
+    width: 15px;
+    border-style:solid;
+    border-width:7px;
+    border-radius:180px;
+    border-color:#20ace6;
+    top:9px;
+    right:9px;
+  }
+  div.foot{
+    height:70px;
+    width: 100%;
+    display:inline-block
+  }
+}
+
+@media(max-width:767.98px){
+  html, body{
+    height:100%;
+  }
+  .kepala{
+    height:100vh;
+
+  }
+  .menu{
+    overflow:auto;
+    white-space:nowrap;
+  }
+  .karir{
+    height:100vh;
+    display:none;
+
+  }
+  .pendidikan{
+    height:100vh;
+    display:none;
+
+  }
+  .keahlian{
+    height:100vh;
+    display:none;
+  }
+  .kontak{
+    height:100vh;
+    display:none;
+  }
+  footer{
+    display:none;
+    width: 100%;
+
+  }
+}

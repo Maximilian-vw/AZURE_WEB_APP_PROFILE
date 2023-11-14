@@ -1,0 +1,25 @@
+
+.img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  height: 150px;
+  width: 140px;
+}
+.fakeimg {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: rgb(250, 246, 4);
+}
+#modal-ku {
+max-width: 72%;
+margin: auto;
+position: relative;
+}
+#profil {
+width: 950px;
+position: fixed;
+}
